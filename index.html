@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <!--navbar sec-->
+  <nav class="navbar bg-body-tertiary fixed-top">
+    
+    <div class="container-fluid">
+      
+      <img src="./asset/images/log/logo.png.webp">
+
+      <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Women’s</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Men’s</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        
+      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <img src="./asset/images/log/logo.png.webp">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Women’s</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men’s</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      
+      </div>
+      <div class="user-actions">
+        <a href="#" class="login-register">Login / Register</a>
+        <div class="icons">
+            <div class="icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="icon">
+                <i class="fas fa-heart"></i>
+                <span class="badge">2</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="badge">2</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+      
+      
+  </nav>
+    
+   <!--fashion sec-->
+    <section class="fashion-section">
+      <div class="fashion-item fashion-women">
+        <div class="fashion-text">
+          
+            <h2>Women's fashion</h2>
+            
+            <p>Sitamet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+            <a href="#" class="shop-now">SHOP NOW</a>
+        
+          </div>
+        
+    </div>
+    <div class="fashion-grid">
+        <div class="fashion-item fashion-mens">
+            <h3>Men's fashion</h3>
+            <p>358 items</p>
+            <a href="#" class="shop-now">SHOP NOW</a>
+        </div>
+        
+        <div class="fashion-item fashion-kids">
+            <h3>Kid's fashion</h3>
+            <p>273 items</p>
+            <a href="#" class="shop-now">SHOP NOW</a>
+        </div>
+        <div class="fashion-item fashion-cosmetics">
+            <h3>Cosmetics</h3>
+            <p>159 items</p>
+            <a href="#" class="shop-now">SHOP NOW</a>
+        </div>
+        <div class="fashion-item fashion-accessories">
+            <h3>Accessories</h3>
+            <p>792 items</p>
+            <a href="#" class="shop-now">SHOP NOW</a>
+        </div>
+    </div>
+      
+    </section>
+
+    <!--product sec-->
+    <section class="new-product-section ">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary nav-underline ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">New product</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a  class="nav-link filter-button active " data-filter="all" >All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link filter-button" data-filter="women">Women’s</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link filter-button" data-filter="men">Men’s</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link filter-button" data-filter="kids">Kid’s</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link filter-button" data-filter="accessories">Accessories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link filter-button" data-filter="cosmetics">Cosmetics</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="product-grid">
+  <div class="product-item women">
+      <span class="label new">NEW</span>
+      <img src="./asset/images/product/women.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Buttons tweed blazer</p>
+      <div class="stars">★★★★☆</div>
+      <p class="price">$59.0</p>
+  </div>
+  <div class="product-item men">
+      <img src="./asset/images/product/man.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Flowy striped skirt</p>
+      <div class="stars">★★★★☆</div>
+
+      <p class="price">$49.0</p>
+  </div>
+  <div class="product-item women out-of-stock">
+      <span class="label out-of-stock">OUT OF STOCK</span>
+      <img src=".//asset/images/product/women1.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Cotton T-Shirt</p>
+      <div class="stars">★★★★★</div>
+      <p class="price">$59.0</p>
+  </div>
+  <div class="product-item men">
+      <img src="./asset/images/product/men1.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Slim striped pocket shirt</p>
+      <div class="stars">★★★★★</div>
+      <p class="price">$59.0</p>
+  </div>
+  <div class="product-item kids">
+      <img src="./asset/images/product/kid.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Slim striped pocket shirt</p>
+      <div class="stars">★★★★★</div>
+      <p class="price">$59.0</p>
+  </div>
+  <div class="product-item women">
+      <img src="./asset/images/product/women2.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Contrasting sunglasses</p>
+      <div class="stars">★★☆☆☆</div>
+      <p class="price">$59.0</p>
+  </div>
+  <div class="product-item men sale">
+      <span class="label sale">SALE</span>
+      <img src="./asset/images/product/men2.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Water resistant backpack</p>
+      <div class="stars">★★★☆☆</div>
+      <p class="price in-sale">$59.0</p>
+      <span class="sale-pric">$ 90</span>
+  </div>
+  <div class="product-item kids">
+      <img src="./asset/images/product/kid1.jpg" class="img-thumbnail" alt="...">
+      <p class="product-name">Tropical Kimono</p>
+      <div class="stars">★★★★★</div>
+      <p class="price">$59.0</p>
+  </div>
+</div>
+
+      
+    </section>
+    <!-- this sec  for cards img-->
+    <section class="productCarosel">
+      <h2 class="lastProducts">Latest Products</h2>
+      <div id="carouselExampleSlidesOnly" class="carousel  slide  " data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="card-wrapper text-center">
+                      <div class="card">
+                          <img src="./asset/images/new-product/bag.jpg" class="card-img-top" alt="AsterBackPack1">
+                          <div class="card-body">
+                              <h3 class="card-title">Aster BackPack</h3>
+                              <span class="card-text">£69.99</span>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <img src="./asset/images/new-product/Cotton.jpg" class="card-img-top" alt="CoastBag1">
+                          <div class="card-body">
+                              <h3 class="card-title">Coast Bag</h3>
+                              <span class="card-text">£128.99</span>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <img src="./asset/images/new-product/cross-bod.jpg" class="card-img-top" alt="BlueBag1">
+                          <div class="card-body">
+                              <h3 class="card-title">Blue Bag</h3>
+                              <span class="card-text">£148.99</span>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <img src="./asset/images/new-product/earrings.jpg" class="card-img-top" alt="EugeneWallet1">
+                          <div class="card-body">
+                              <h3 class="card-title">Eugene Wallet</h3>
+                              <span class="card-text">£49.99</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card-wrapper text-center">
+                      <div class="card">
+                          <img src="./asset/images/new-product/Metallic.jpg" class="card-img-top" alt="LeatherWallet1">
+                          <div class="card-body">
+                              <h3 class="card-title">Leather Wallet</h3>
+                              <span class="card-text">£49.99</span>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <img src="./asset/images/new-product/Round.jpg" class="card-img-top" alt="HorwooCap1">
+                          <div class="card-body">
+                              <h3 class="card-title">Horwood Cap</h3>
+                              <span class="card-text">£39.99</span>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <img src="./asset/images/new-product/skirt.jpg" class="card-img-top" alt="AsterBackPack1">
+                          <div class="card-body">
+                              <h3 class="card-title">Aster Backpack</h3>
+                              <span class="card-text">£69.99</span>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <img src="./asset/images/new-product/T-Shirt.jpg" class="card-img-top" alt="CoastBag1">
+                          <div class="card-body">
+                              <h3 class="card-title">Coast Bag</h3>
+                              <span class="card-text">£128.99</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        
+      </div>
+      <div class="row justify-content-center mt-5">
+          <div class="col-12 col-md-6 text-center">
+              <a href="#"><span class="btn productbtn">Shop all products</span></a>
+          </div>
+      </div>
+  </section>
+    
+
+<!--time section-->
+<div class="sale-section">
+  <div class="image-container">
+      <img src="./asset/images/log/time.jpg" alt="Summer Sale Image">
+  </div>
+  <div class="countdown-container">
+      <h2>DISCOUNT</h2>
+      <h1>Summer 2019</h1>
+      <p>SALE <span>50%</span></p>
+      <div class="countdown">
+          <div><span id="days"></span> Day</div>
+          <div><span id="hours"></span> Hour</div>
+          <div><span id="minutes"></span> Min</div>
+          <div><span id="seconds"></span> Sec</div>
+      </div>
+      <button class="shop-now">SHOP NOW</button>
+  </div>
+</div>
+
+
+<!--support icon-->
+<section class="support-icon">
+  <div class="container text-center">
+   <div class="row row-cols-4">
+     <div class="col"><i class="fa-solid fa-car fa-2xl" style="color: #df1c07;"></i>
+       <h6>Free Shipping</h6>
+       <p>For all oder over $99</p>
+   </div>
+     <div class="col"><i class="fa-solid fa-money-bill-1-wave fa-2xl" style="color: #df1c07;"></i>
+       <h6>Money Back Guarantee</h6>
+       <p>If good have Problems</p>
+   </div>
+     <div class="col"><i class="fa-regular fa-life-ring fa-2xl" style="color: #df1c07;"></i>
+       <h6>Online Support 24/7</h6>
+       <p>Dedicated support</p>
+   </div>
+     <div class="col"><i class="fa-solid fa-headphones fa-2xl" style="color: #df1c07;"></i>
+       <h6>Payment Secure</h6>
+       <p>100% secure payment</p>
+   </div>
+   </div>
+ </div> 
+</section>
+<!--card instagram sec-->
+<section class="images-container">
+  <div class="image-container">
+      <img src="./asset/images/card/insta1.jpg" alt="Your Image">
+      <div class="overlay">
+          <a href="#" target="_blank" class="instagram-icon"> 
+              
+              <i class="fa-brands fa-instagram"></i>
+          
+          </a>
+      </div>
+  </div>
+  <div class="image-container">
+      <img src="./asset/images/card/insta2.jpg" alt="Your Image">
+      <div class="overlay">
+          <a href="#" target="_blank" class="instagram-icon"> 
+              
+              <i class="fa-brands fa-instagram"></i>
+          
+          </a>
+      </div>
+  </div>
+  <div class="image-container">
+      <img src="./asset/images/card/insta3.jpg" alt="Your Image">
+      <div class="overlay">
+          <a href="#" target="_blank" class="instagram-icon"> 
+              
+              <i class="fa-brands fa-instagram"></i>
+          
+          </a>
+      </div>
+  </div>
+  <div class="image-container">
+      <img src="./asset/images/card/insta4.jpg" alt="Your Image">
+      <div class="overlay">
+          <a href="#" target="_blank" class="instagram-icon"> 
+              
+              <i class="fa-brands fa-instagram"></i>
+          
+          </a>
+      </div>
+  </div>
+  <div class="image-container">
+      <img src="./asset/images/card/insta5.jpg" alt="Your Image">
+      <div class="overlay">
+          <a href="#" target="_blank" class="instagram-icon"> 
+              
+              <i class="fa-brands fa-instagram"></i>
+          
+          </a>
+      </div>
+  </div>
+  <div class="image-container">
+      <img src="./asset/images/card/insta6.jpg" alt="Your Image">
+      <div class="overlay">
+          <a href="#" target="_blank" class="instagram-icon"> 
+              
+              <i class="fa-brands fa-instagram"></i>
+          
+          </a>
+      </div>
+  </div>
+ 
+</section>
+<!--footer sec-->
+<footer class="footer">
+  <div class="footer-container">
+      
+      <div class="footer-section about">
+        <img src="./asset/images/log/logo.png.webp">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+          <div class="payment-icons">
+              <img src="./asset/images/payment/mastercard.png" alt="MasterCard">
+              <img src="./asset/images/payment/Visa.png" alt="Visa">
+              <img src="./asset/images/payment/Discover.png" alt="Discover">
+              <img src="./asset/images/payment/PayPal.png" alt="PayPal">
+              <img src="./asset/images/payment/Cirrus.png" alt="Cirrus">
+          </div>
+      </div>
+      
+      
+      <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+          </ul>
+      </div>
+      
+      
+      <div class="footer-section links">
+          <h2>Account</h2>
+          <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Orders Tracking</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">Wishlist</a></li>
+          </ul>
+      </div>
+      
+      
+      <div class="footer-section newsletter">
+          <h2>Newsletter</h2>
+          <form action="#">
+              <input type="email" placeholder="Email">
+              <button type="submit" class="subscribe-btn">Subscribe</button>
+          </form>
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="./asset/java/java.js"></script>
+</body>
+</html>
